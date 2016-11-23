@@ -1,0 +1,105 @@
+
+/********** Device Styles **********/
+
+/**
+ * Tablet Landscape: 1024px
+ */
+
+@media only screen and (max-width: 1024px) {
+
+	
+ .content {
+	width: 85%;
+    }
+
+
+
+}
+
+/**
+ * Tablet Portrait: 768px
+ */
+
+@media only screen and (max-width: 768px) {
+
+	
+	
+.content {
+	width: 90%;
+}
+
+
+ img.big-image {
+ 	width:100%; /* IE */
+	max-width: 100%; /* FF, Safari, Chrome */
+	margin-bottom: 3%;
+    margin-top: 10%;
+}
+
+
+}
+
+/**
+ * Smartphone Landscape: 480px
+ */
+
+@media only screen and (max-width: 480px) {
+
+
+
+ header {
+ 	padding-top: 15%;
+ 	padding-bottom: 15%;
+ 	text-align: center;
+ }
+
+	header h1, header h2 {
+		display: block;
+		float: none;
+		padding: 0 0 1%;
+		font-size: 1.4em;
+	}
+
+	 p {
+ 	
+ 	font-size: 1.2em;
+ 	line-height: 1.7em;
+ }
+
+   .content {
+	width: 92%;
+    }
+
+
+ figcaption {
+		text-align: center;
+	}
+
+}
+
+
+/**
+ * Smartphone Portrait: 320px
+ */
+
+@media only screen and (max-width: 320px) {
+
+	
+
+   .content {
+	width: 94%;
+    }
+ 
+}
+
+/**
+ * Printer
+ */
+
+@media print {
+
+	*, h1, h2, p, a, div {
+		color: black;
+	}
+	
+}

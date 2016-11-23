@@ -1,0 +1,141 @@
+
+
+/********** Fixes **********/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/* scale the image to accomodate responsive layout. */
+
+/********** Global **********/
+
+
+
+body {
+	background-color: #FFFAFA;
+	vertical-align: baseline;
+	height: 100vh;
+}
+
+
+
+
+ h1 {
+ 	float: left;
+	font-family: Open Sans;
+	font-weight : 200;
+	font-size : 1em;
+	letter-spacing: 2.25px;
+	text-transform: uppercase;
+	color : #222;
+ }
+
+
+ h2 {
+ 	float: right;
+	font-family: Open Sans;
+	font-weight : 200;
+	font-size : 1em;
+	color : #4876FF;
+ }
+
+ p {
+ 	font-family: Vollkorn, serif;
+ 	font-size: 1.4em;
+ 	line-height: 1.8em;
+ 	color: #222;
+ }
+
+figure {
+	padding: 0 0 30px;
+}
+
+	figcaption {
+		font-family: Vollkorn, serif;
+ 	    font-size: 0.9em;
+ 	    font-style: italic;
+ 	    font-weight: 400;
+		color: #888;
+		text-align: right;
+	}
+
+
+a {
+	color: #4876FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+a:active {
+	font-size: 400;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/********** Header **********/
+
+ header {
+ 	padding: 3%;
+ 	text-align: center;
+ }
+ 
+
+ header h1, header h2 {
+ 	display: inline-block;
+ }
+
+
+/********** Content Area **********/
+
+.content {
+	width: 65%;
+	margin: 0 auto;
+}
+
+
+ img.big-image {
+ 	width:100%; /* IE */
+	max-width: 100%; /* FF, Safari, Chrome */
+ 	display: block;
+ 	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+
+/********** Footer **********/
+
+footer {
+	text-align: center;
+	font-size: 0.9em;
+	font-family: Vollkorn, serif;
+	color: #222;
+	padding: 3%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
